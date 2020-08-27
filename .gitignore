@@ -1,0 +1,26 @@
+
+###### Editor files
+*~
+*.bak
+*.orig
+*.pidb
+*.suo
+*.user
+*.userprefs
+*.usertasks
+*.resources
+*.vs10x
+*_ReSharper.*
+.idea
+
+
+###### Binary files
+[Bb]in
+[Oo]bj
+*.cache
+*.sln.proj
+
+
+###### OS generated files
+Thumbs.db
+.DS_Store*

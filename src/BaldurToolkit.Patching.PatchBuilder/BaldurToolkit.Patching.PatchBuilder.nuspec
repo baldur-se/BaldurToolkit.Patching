@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>BaldurToolkit.Patching.PatchBuilder</id>
+    <version>1.0.0</version>
+    <title></title>
+    <authors>1</authors>
+    <owners>1</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>1</description>
+    <copyright></copyright>
+    <tags></tags>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0" />
+      <group targetFramework="netcoreapp3.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\netstandard2.0\*.*" target="lib\netstandard2.0" />
+    <file src="bin\Release\netcoreapp3.1\*.*" target="lib\netcoreapp3.1" />
+  </files>
+</package>
